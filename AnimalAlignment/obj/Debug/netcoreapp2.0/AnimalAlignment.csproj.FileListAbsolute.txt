@@ -1,0 +1,11 @@
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\bin\Debug\netcoreapp2.0\AnimalAlignment.deps.json
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\bin\Debug\netcoreapp2.0\AnimalAlignment.runtimeconfig.json
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\bin\Debug\netcoreapp2.0\AnimalAlignment.runtimeconfig.dev.json
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\bin\Debug\netcoreapp2.0\AnimalAlignment.dll
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\bin\Debug\netcoreapp2.0\AnimalAlignment.pdb
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\obj\Debug\netcoreapp2.0\AnimalAlignment.csprojResolveAssemblyReference.cache
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\obj\Debug\netcoreapp2.0\AnimalAlignment.csproj.CoreCompileInputs.cache
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\obj\Debug\netcoreapp2.0\AnimalAlignment.AssemblyInfoInputs.cache
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\obj\Debug\netcoreapp2.0\AnimalAlignment.AssemblyInfo.cs
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\obj\Debug\netcoreapp2.0\AnimalAlignment.dll
+C:\Users\2010701\source\repos\AnimalAlignment\AnimalAlignment\obj\Debug\netcoreapp2.0\AnimalAlignment.pdb

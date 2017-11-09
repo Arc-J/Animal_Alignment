@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+
+}
+
+<div style="width:800px; margin:0 auto; text-align:center;">
+    <a href="@Url.Action("Index","Home")">
+        <img width="150" height="150"
+             src="@Url.Action("show", "Home", new {id = 1})" />
+    </a>
+</div>
+
+
+ 
+
+
+
+<br>
+
+    <table id="Alignment" style="margin: 0px auto;">
+        <tr>
+            <td id="LG" align="center" class="square">                
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="Cyan"><b>Lawful Good</b></font></a>
+            </td>
+            <td id="LN" align="center" class="square">
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="Green"><b>Lawful Neutral</b></font></a>
+            </td>
+            <td id="LE" align="center" class="square">
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="Yellow"><b>Lawful Evil</b></font></a>
+            </td>
+        </tr>
+        <tr>
+            <td id="NG" align="center" class="square">
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="Blue"><b>Neutral Good</b></font></a>
+            </td>
+            <td id="TN" align="center" class="square">
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="White"><b>True Neutral</b></font></a>
+            </td>
+            <td id="NE" align="center" class="square">
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="Orange"><b>Netral Evil</b></font></a>
+            </td>
+        </tr>
+        <tr>
+            <td id="CG" align="center" class="square">
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="Purple"><b>Chaotic Good</b></font></a>
+            </td>
+            <td id="CN" align="center" class="square">
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="Grey"><b>Chaotic Neutral</b></font></a>
+            </td>
+            <td id="CE" align="center" class="square">
+                <a style="padding:20px 10px;display:block;color:#FFFFFF; text-decoration:none;"><font size="3" face="Arial, Helvetica, sans-serif" color="Red"><b>Chaotic Evil</b></font></a>
+            </td>
+        </tr>
+    </table>
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script>
+    $(document).ready(function () {
+        $('#Alignment td').click(function (event) {
+            alert($(this).attr('id')); //trying to alert id of the clicked row
+
+        });
+    });
+
+</script>
